@@ -1,0 +1,52 @@
+
+.Boton{border-radius: 1px;
+    background-color: cyan;
+    font-weight: bold;
+    width: 100px;
+    height: 25px;
+    color: white;
+    text-align: center;
+    transition: color 0.2s;
+     
+    }
+    p{align-content:flex-start;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin-left: 0.5rem;
+    margin-right:0.5rem;
+    }
+    
+    input:hover{
+    background-color: cyan;
+    color: whitesmoke
+    }
+    
+    input:focus{
+        background-color: rgb(34, 147, 192);
+        width: 100;
+        height: 200;
+    }
+    input { background-color: rgb(26, 189, 170);
+        color: white; 
+        width: 100px;
+        height: 50px;
+        font-weight: bolder;
+    }
+
+    table {
+    text-align:left;
+    background-color: rgb(233, 232, 232);
+    margin-left: 0.5rem;
+}
+
+body{
+    margin: 0;
+    padding: 0%;
+}
+header{
+display: flex;
+height: 25vh;
+background-color: #b31a66;
+color: rgb(240, 236, 231);
+padding-right: 25px;
+padding-left: 30px;
