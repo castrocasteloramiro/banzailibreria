@@ -48,7 +48,7 @@
 
   #page > main {
     grid-area: main;
-    background-color: #ffeffc; 
+    background-color:  #7e0340; 
     height: auto;
     width: 300px;
     padding-right: 3px;
@@ -57,30 +57,26 @@
     padding-top: 5px;
     display: flex;
     flex-direction: column;
-    align-content: left;
-align-items: flex-start;
-
 }
 
-                        #page > main2 { 
+                       
 
-                            grid-area: main2;
-                            background-color:rgb(19, 19, 19); }
-
-                            .container {
+                            .container1 {
                                 width: auto;
                                 height: auto;    
-                                background-color:rgb(128, 12, 102);
                                 display: flex;
                                 flex-wrap: wrap;
-                                justify-content: space-around;
+                                justify-content: space-between;
                                 flex-direction: column;
-                                align-content: center;   }
+                               align-items: center;
+                               justify-content: center; 
+                                                             
+                             }
 
-                                .container2 {
+                                .Descripcion {
                                     width: auto;
                                     height: auto;    
-                                    background-color:rgb(216, 212, 212);
+                                    background-color:rgb(234, 228, 235);
                                     display: flex;
                                     flex-wrap: wrap;
                                     justify-content: space-around;
@@ -93,25 +89,47 @@ align-items: flex-start;
                                 text-align: justify;
                                 
                             }
-                            #page > main2
-            
-                            .Container3 {
-                            max-width: max-content;
-                            height: auto; 
-                            background-color: rgb(221, 220, 220);
-                            display: flex; 
+
+
                             
+                            #page > main2 { 
+
+                              grid-area: main2;
+                              background-color: #beae16;
+                              width: auto;
+                              height: auto;
+                          
+                            }
+                            .Container3 {
+                            margin-top: 5vh;
+                            max-width: auto;
+                            height: auto; 
+                            display: flex;
+                            
+                            
+                            }
+                        
+                         
+  
+                            #page > footer {
+                              grid-area: foot;
+                              background-color: #310f22; 
+                              color:none
+                              height: 100px;
+                              display: flex;
+                              flex-direction: row;
                             }
 
                             .Container3 table {
                                 text-align:left;
-                                background-color: rgb(207, 204, 204);
+                                background-color:none;
                                 margin-top: 0.5rem;
                                 margin-left: 0.5rem;
                                 margin-right: 0.5rem;
+                                border-radius: 0.1rem;
+                                color: lightcyan;
                             }
-.Main-logo {
-                              height: 60px;
+.Main-logo {                  height: 60px;
                               background-color:white;
                               width: 150px;
                               display: flex;
@@ -166,6 +184,71 @@ align-items: flex-start;
                                     width: auto;
                                     }
                                   
+                                    .Footer-Table {
+
+                                      height: 50PX;
+                                      width:  33%;
+                                      display: flex;
+                                      background-color:#310f22; 
+                                      flex-direction: row;
+                                      justify-content:row;
+                                      flex-wrap: wrap;
+                                      margin:5px;
+                                      align-items: center
+                                      ;
+                                  
+                                  }
+
+                                  .SobreElAutor{
+                                    width: auto;
+                                    height: auto;    
+                                    background-color:rgb(255, 255, 255);
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                    justify-content: space-around;
+                                    flex-direction: column;
+                                    align-content: center; 
+                                padding-right: 20vh;
+                                padding-left: 5vh;
+                                padding-top: 3vh;
+                                font-family:Arial, Helvetica, sans-serif;
+                                text-align: justify;
+                                
+
+                                  }
+
+                                  .foot {color: aliceblue;
+                                    font-size: medium;
+                                    padding-left: 20px;
+                                    }
+
+                                    
+                                    .itemaction {
+                                      height: 35px;
+                                      width: 156px;
+                                      display: flex;
+                                      background-color:rgb(97, 62, 161); 
+                                      flex-direction:row;
+                                      flex-wrap: wrap;
+                                      margin: 1vh;
+                                      color: ivory;
+                                      font-size: small;
+                                    padding-left: 10px;
+                                    padding-top:  8px;
+                                    border-radius: 5px;
+                                    justify-content: center; 
+                                    margin-left: 55px; 
+                                   
+}
+                                    
+                                    .itemaction:hover{background-color:coral;
+                                    color: white}
+                                    .caja {
+                                     
+                                    height: 100px;
+                                    width: 100px;
+                                    background-color: lightcoral;
+                                    }
                                     
 
                            
